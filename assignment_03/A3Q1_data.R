@@ -54,8 +54,11 @@ num_files <- 100
 # Initialize with an empty object.
 A3Q1_data <- NULL
 for (file_num in 1:num_files) {
+  
+  filename <- list.files (path = "C:/Users/Juan Barajas/Documents/Course_demos/Morin_Iris/QMB6358-iris", pattern = "iris")
 
   # Set the filename.
+
 
   # A3Q1a) Print filename.
 
@@ -69,6 +72,7 @@ for (file_num in 1:num_files) {
 
 
 }
+print(filename)
 
 
 ################################################################################
